@@ -1,0 +1,12 @@
+Author: Sebastian Skrobich
+Index: 140779
+
+Działanie:
+Program wykonuje testy:
+ - pojedyńczych  bitów
+ - serii
+ - długiej serii
+ - pokerowy
+na pierwszych 20 tysiącach bitów zapisanych
+tekstowo z podanego pliku i wyświetla rezultaty
+każdego z tych testów.

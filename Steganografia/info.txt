@@ -1,0 +1,18 @@
+Author: Sebastian Skrobich
+Index: 140779
+
+Wczytywanie do bitmapy:
+Aplikacja przyjmuje ścieszi do 3 plików:
+ - bitmapy
+ - pliku tekstowego
+ - pliku wyjściowego
+Plik wyjściowy zostanie nadpisany w formacie
+zmienionej bitmapy.
+
+Odczytywanie z bitmapy:
+W celu odczytu aplikacja wymaga 2 ścierzek:
+ - do pliku z bitmapą
+ - do pliku wyjściowego
+Ścieszka do pliku tekstowego jest pomijana.
+Plik wyjściowy zostanie nadpisany w formacie
+pliku tekstowego.

@@ -1,0 +1,5 @@
+Author: Sebastian Skrobich
+Index: 140779
+
+Program wykorzystuje algorytm RSA do kryptografii
+asymetrycznej. 

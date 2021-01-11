@@ -1,0 +1,7 @@
+Author: Sebastian Skrobich
+Index: 140779
+
+Program wykorzystuje kryptografię wizualną
+dla plików png. Plik oznaczony jako Additiopnal
+File jest jednym z plików wyjściowych dla szyfrowania,
+natomiast dla deszyfrowania jest jednym z plików wejściowych

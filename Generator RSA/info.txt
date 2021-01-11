@@ -1,0 +1,24 @@
+Author: Sebastian Skrobich
+Index: 140779
+
+Krótki opis:
+Generator produkuje kolejne bity i zapisuje je w formie
+tekstowej do wskazanego pliku.
+
+Generator:
+Bity generowane są na bazie podanych wartości dla klucza
+[e,n] oraz wartości początkowej x_0. Wartości są podstawaine
+do równania rekurencyjnego: 
+x_{i+1}={x_i}^e mod n
+Z każdej wartości x_i zapisywany jest najmniej znaczący bit.
+
+Funkcjonalność:
+Generator pozwala na wpisanie wybranych wartości klucza,
+wartości początkowej, ilości bitów do wygenerowania, oraz
+pliku do którego zapisany zostanie wynik. Początkowa
+zawartość pliku zostanie nadpisana. Zamknięcie programu 
+w trakcie generacji może spowodować uszkodzenie pliku. 
+Dodatkowo można zaznaczyć czy generator ma wymagać aby 
+klucz i wartość początkowa były zbirem liczb pierwszych,
+oraz czy generator powinien przedwcześnie zakończyć działanie,
+jeśli miałby zacząć się zapętlać.

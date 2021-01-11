@@ -1,0 +1,30 @@
+Author: Sebastian Skrobich
+Index: 140779
+
+Alfabet jawny i tajny:
+Ciąg rosnący znaków UTF-16 z wyłączeniem zakresu D800–DFFF
+
+Opis:
+Szyfrator stosuje szyfr podstawieniowy prosty.
+Wprowadzany klucz musi się składać z serii unikalnych znaków
+wpisanych po sobie. Znaki należące do alfabetu, które nie
+zostaną wprowadzone w kluczu zostaną do niego dodane w
+kolejności rosnących kodów Unicode.
+
+Program obsługuje zapis klucza i zaszyfrowanego/
+odszyfrowanego tekstu do pliku tekstowego, oraz wczytywania
+klucza i tekstu z pliku tekstowego. W celu wykorzystania
+obsługi plików, należy wpierw wybrać plik, a następnie
+wybrać odpowiednią funkcję.
+
+Szyfr:
+Szyfr podstawieniowy prosty zamienia każdy znak - a - z alfabetu
+jawnego na odpowiadający mu znak - b - na podstawie funkcji f (klucza),
+która jest funkcją wzajemnie jednoznaczną.
+
+Przykład:
+Niech alfabetem jawnym oraz alfabetem tajnym będzie ciąg znaków 
+(A, B, C, D, E, F), a podanym kluczem - ciąg (B, F). Wtedy funkcja f
+będzie określona jako:
+f(A) = B, f(B) = F, f(C) = A, f(D) = C, f(E) = D, f(F) = E
+zatem słowo BED zostanie zamienione na FDC

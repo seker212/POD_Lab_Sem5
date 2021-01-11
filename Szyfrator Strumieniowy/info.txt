@@ -1,0 +1,11 @@
+Author: Sebastian Skrobich
+Index: 140779
+
+Działanie:
+Szyfrator wykonuje operacje XOR na kolejnych znakach
+z pliku tekstowego oraz wartościach z pliku z kluczem.
+Na każdy znak z pliku tekstowego przypada 8-bitowa
+wartość z klucza, dlatego plik z kluczem MUSI być
+przynajmniej 8 razy dłuższy od tekstu.
+Efekt końcowy jest zapisywany we wskazanym pliku. Jeśli
+posiada on już jakąś zawartość zostanie ona nadpisana.
